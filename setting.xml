@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml:schema xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <xml:element name="settings">
+        <xml:complexType>
+            <xml:sequence>
+                <xml:element name="setting" maxOccurs="unbounded">
+                    <xml:complexType>
+                        <xml:sequence>
+                            <xml:element name="name" type="string"/>
+                            <xml:element name="value" type="string"/>
+                        </xml:sequence>
+                    </xml:complexType>
+                </xml:element>
+            </xml:sequence>
+        </xml:complexType>
+    </xml:element>
+</xml:schema>
