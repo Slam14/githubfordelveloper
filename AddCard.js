@@ -1,4 +1,5 @@
 console.log("AddCard component loaded");
+console.log("This component will allow users to add a new card for payment");
 
 function AddCard() {
     return (
